@@ -1,4 +1,13 @@
 {
   "name": "nextjs-monaco",
-  "packageManager": "yarn@4.0.0-rc.32"
+  "packageManager": "yarn@4.0.0-rc.32",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "dependencies": {
+    "@monaco-editor/react": "^4.5.1",
+    "next": "12.0.4",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
 }
